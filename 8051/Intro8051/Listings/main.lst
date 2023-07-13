@@ -1,0 +1,44 @@
+C51 COMPILER V9.60.0.0   MAIN                                                              07/13/2023 16:05:52 PAGE 1   
+
+
+C51 COMPILER V9.60.0.0, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN .\Objects\main.obj
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE main.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\main
+                    -.lst) TABS(2) OBJECT(.\Objects\main.obj)
+
+line level    source
+
+   1          #include <regx52.h>
+   2          
+   3          void main()
+   4          {
+   5   1          // Initialize
+   6   1          P2_0 = 0;
+   7   1          P2_1 = 1;
+   8   1          P2_7 = 0;
+   9   1        
+  10   1          P1 = 5;
+  11   1        /*  P1 7 6 5 4 3 2 1 0
+  12   1            5  0 0 0 0 0 1 0 1
+  13   1        */
+  14   1        
+  15   1          while(1)
+  16   1          {
+  17   2          // Operating program
+  18   2            
+  19   2          }
+  20   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     11    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
