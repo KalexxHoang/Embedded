@@ -1,0 +1,3 @@
+".\Objects\main.obj" 
+TO ".\Objects\Hieu_Ung_LED" 
+PRINT(".\Listings\Hieu_Ung_LED.m51") RAMSIZE(256) 
