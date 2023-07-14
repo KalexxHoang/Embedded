@@ -1,0 +1,3 @@
+".\Objects\main.obj" 
+TO ".\Objects\OR" 
+PRINT(".\Listings\OR.m51") RAMSIZE(256) 

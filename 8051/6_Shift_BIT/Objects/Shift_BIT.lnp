@@ -1,0 +1,3 @@
+".\Objects\main.obj" 
+TO ".\Objects\Shift_BIT" 
+PRINT(".\Listings\Shift_BIT.m51") RAMSIZE(256) 

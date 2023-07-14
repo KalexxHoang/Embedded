@@ -11,12 +11,10 @@ void Delay(unsigned int t)
 
 void main()
 {
+	P0 = 0x01;
 	while(1)
 	{
-		//P0_0 = !P0_0; // Invert BIT
-		P0 ^= 0xFF; // Invert BYTE
-		// P0 = ~P0;
-		Delay(500);
+			Delay(1000);
+			P0 <<= 1;
 	}
 }
-		

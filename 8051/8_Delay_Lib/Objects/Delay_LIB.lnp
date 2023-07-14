@@ -1,0 +1,4 @@
+".\Objects\main.obj",
+".\Objects\Delay.obj" 
+TO ".\Objects\Delay_LIB" 
+PRINT(".\Listings\Delay_LIB.m51") RAMSIZE(256) 

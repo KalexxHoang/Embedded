@@ -1,0 +1,3 @@
+".\Objects\main.obj" 
+TO ".\Objects\Invert_BIT_BYTE" 
+PRINT(".\Listings\Invert_BIT_BYTE.m51") RAMSIZE(256) 
